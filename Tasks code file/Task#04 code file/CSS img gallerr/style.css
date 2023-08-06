@@ -1,0 +1,25 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  h1
+  {
+    text-align: center;
+  }
+  
+  .gallery a {
+    margin: 10px;
+    flex: 1 0 200px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .gallery img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+  
